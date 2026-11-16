@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "quickload",
+  "version": "${version}",
+  "name": "Quick Load",
+  "description": "Client-side utility.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/quickload/icon.png",
+  "environment": "client",
+  "mixins": [
+    "quickload.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

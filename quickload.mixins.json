@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.quickload.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "AbstractContainerScreenMixin",
+    "BlindnessFogEnvironmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
